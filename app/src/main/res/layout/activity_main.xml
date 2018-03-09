@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rxandroid.MainActivity"
+    >
+
+   <Button
+       android:id="@+id/first_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Observable第一种创建方式"
+       />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/two_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observable第二种创建方式"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/third_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxAndroid过滤"
+        />
+</LinearLayout>
